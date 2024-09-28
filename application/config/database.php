@@ -76,10 +76,10 @@ $active_record = TRUE;//ci version 2.x
 
 $db['default'] = array(
     'dsn'   => '',
-    'hostname' => 'db-mysql-nyc3-53125-do-user-17475334-0.g.db.ondigitalocean.com',
-    'username' => 'doadmin',
-    'password' => 'AVNS_awulf-45SrEdW9PAjbf',
-    'database' => 'clinic365',
+    'hostname' => getenv('DB_HOST'),
+    'username' => getenv('DB_USERNAME'),
+    'password' => getenv('DB_PASSWORD'),
+    'database' => getenv('DB_DATABASE'),
     'dbdriver' => 'mysqli',
     'dbprefix' => '',
     'pconnect' => FALSE,

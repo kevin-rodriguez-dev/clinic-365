@@ -2,4 +2,8 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php?/$1 [L]
+SetEnv DB_HOST "db-mysql-nyc3-53125-do-user-17475334-0.g.db.ondigitalocean.com"
+SetEnv DB_USERNAME "doadmin"
+SetEnv DB_PASSWORD "AVNS_awulf-45SrEdW9PAjbf"
+SetEnv DB_DATABASE "clinic365"
 
