@@ -81,6 +81,7 @@ $db['default'] = array(
     'password' => 'AVNS_awulf-45SrEdW9PAjbf',
     'database' => 'clinic365',
     'dbdriver' => 'mysqli',
+    'port'     => 25060,
     'dbprefix' => '',
     'pconnect' => FALSE,
     'db_debug' => (ENVIRONMENT !== 'production'),
